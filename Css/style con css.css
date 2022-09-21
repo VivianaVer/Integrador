@@ -1,0 +1,161 @@
+
+body{ 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: rgb(201, 218, 212);
+  color: rgb(54, 52, 52);
+}
+
+.menuPpal{ 
+  margin: 0rem ;
+  padding: 0rem;
+  background-color: rgb(187, 200, 176);
+  text-align: right;
+  font-size: 1.2rem;  
+  cursor: pointer;
+  position: sticky;
+  position: -webkit-sticky;
+}
+
+.caja{
+  display: inline-block;
+  padding-bottom: 0rem;
+  vertical-align: middle;
+  margin: 0.5rem 1rem 0.5rem 1rem ;
+}
+
+.menuPpal :hover{
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: rgb(12, 66, 66);
+  }
+
+.menuPpal>img{
+  width: 5rem;
+  height: 5rem;
+  margin: 0rem 0.5rem 0rem 0rem;
+  border-radius: 3rem;
+  padding: 0rem;
+  vertical-align: middle;
+}
+
+.fotoPlaya {
+  position: relative;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+  
+.titulo {
+  position: absolute;
+  top: 3px;
+  left: 30px;
+  font-size: 7rem;
+  color: rgb(16, 48, 16);
+  margin: 0rem;
+  text-shadow: 5px 5px 8px #2b4616;
+  animation: backInRight;
+  animation-duration: 5s;
+}
+
+.titulo:first-letter{
+  font-size: 10rem;
+}
+
+.parrafo {
+  position: absolute;
+  bottom: 3rem;
+  left: 2rem;
+  right: 2rem;
+  color: white;
+  text-align: center;
+  margin: 0rem 8rem 0rem 8rem;
+  font-size: 1.8rem;
+}
+
+.flexContainer{
+  display: flex;
+  text-align: center;
+  padding: 0rem 0rem 0rem 2rem;
+  animation: animate__bounceInRight;
+  animation-duration: 2s;
+}
+
+.compraVenta{
+  width: 20rem;
+  margin: 0rem;
+  border: solid;
+  border-color: rgb(150, 155, 155);
+  border-style: groove;
+  padding: 0;
+}
+  
+.compraVenta > img{
+  width: 100%;
+  padding: 0rem;
+}
+
+.alquiler{
+  width: 20rem;
+  margin: 0rem;
+  border: solid;
+  border-color: rgb(150, 155, 155);
+  border-style: groove;
+  padding: 0;
+}
+
+.alquiler > img{
+  width: 100%;
+  padding: 0rem;
+}
+
+.mantenimiento{
+  width: 20rem;
+  margin: 0rem;
+  border: solid;
+  border-color: rgb(150, 155, 155);
+  border-style: groove;
+  padding: 0;
+}
+
+.mantenimiento > img{
+  width: 100%;
+  padding: 0rem;
+}
+
+.obras{
+  width: 20rem;
+  margin: 0rem;
+  border: solid;
+  border-color: rgb(150, 155, 155);
+  border-style: groove;
+  padding: 0;
+}
+
+.obras > img{
+  width: 100%;
+  padding: 0rem;
+}
+
+.descripcion{
+  padding: 0rem 0.7rem 0.5rem 0.7rem;
+  text-align: justify;
+}
+
+h2{
+  text-align: center;
+}
+
+
+
+
+p{
+  /*font-size: 2rem;
+  color: blue;*/
+  text-align: justify;
+  margin: 2rem 0.5rem 0.5rem 0.5rem;
+}
+
+.formulario{
+  margin: 2rem;
+  color: rgb(24, 24, 34);
+}
