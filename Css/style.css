@@ -1,7 +1,6 @@
 
 body{ 
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  background-color:rgb(173, 192, 160);
   color:rgb(54, 52, 52);
 }
 
@@ -14,7 +13,7 @@ body{
   cursor: pointer;
   position: sticky;
   position: -webkit-sticky;
-}
+ }
 
 .caja{
   display: inline-block;
@@ -37,15 +36,8 @@ body{
   padding: 0rem;
   vertical-align: middle;
 }
-
-.fotoPlaya {
-  position: relative;
-  width: 100%;
-  height: auto;
-  text-align: center;
-}
-  
-.titulo {
+ 
+.titulo{
   position: absolute;
   top: 3px;
   left: 30px;
@@ -59,18 +51,16 @@ body{
 
 .titulo:first-letter{
   font-size: 10rem;
-}
+ }
 
-.parrafo {
-  position: absolute;
-  bottom: 3rem;
-  left: 2rem;
-  right: 2rem;
+ .parrafo {
+  margin-top: 38rem;
+  text-align: end;
   color: white;
-  text-align: center;
-  margin: 0rem 8rem 0rem 8rem;
   font-size: 1.8rem;
-}
+ }
+
+
 
 .compraVenta{
   width: 20rem;
@@ -137,9 +127,6 @@ h2{
   text-align: center;
 }
 
-
-
-
 p{
   text-align: justify;
   margin: 2rem 0.5rem 0.5rem 0.5rem;
@@ -151,6 +138,54 @@ p{
   color: rgb(24, 24, 34);
 }
 
-.separador{
-  background-color:blueviolet ;
+@media only screen and (max-width: 1500px);{
+  body{
+   background-color:rgb(173, 192, 160);
+ }
+   .titulo {
+       font-size: 7rem;
+   
+  }
+   .titulo:first-letter{
+   font-size: 10rem;
+  }
+  .parrafo {
+       font-size: 1.8rem;
+  }
+}
+
+@media only screen and (max-width: 1000px);{
+  body{
+   background-color:rgb(173, 192, 160);
+ }
+  .titulo {
+   
+   font-size: 5rem;
+   
+  }
+   .titulo:first-letter{
+   font-size: 7rem;
+  }
+  .parrafo {
+   
+   font-size: 1.3rem;
+  }
+
+  @media only screen and (max-width: 600px);{
+    body{
+     background-color:rgb(173, 192, 160);
+   }
+    .titulo {
+     
+     font-size: 3rem;
+     
+    }
+     .titulo:first-letter{
+     font-size: 5rem;
+    }
+    .parrafo {
+     
+     font-size: 0.9rem;
+    }
+  
 }
