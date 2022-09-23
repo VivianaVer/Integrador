@@ -2,6 +2,7 @@
 body{ 
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color:rgb(54, 52, 52);
+  background-color: rgb(187, 200, 176);
 }
 
 @media only screen and (max-width: 1500px){
@@ -37,6 +38,16 @@ body{
   .menuPpal:hover{
     font-size: 1.4rem;
     font-weight: bold;
+  }
+  p{
+    text-align: justify;
+    margin: 2rem 0.5rem 0.5rem 0.5rem;
+  }
+  .formulario{
+    background-color: rgb(187, 200, 176);
+    padding: 2rem 5rem 2rem 5rem;
+    color: rgb(24, 24, 34);
+    margin: 0rem;
   }
 }
 
@@ -76,6 +87,16 @@ body{
     text-decoration-color: blueviolet;
     color: rgb(12, 66, 66);
   }
+  p{
+    text-align: justify;
+    margin: 2rem 0.5rem 0.5rem 0.5rem;
+  }
+  .formulario{
+    background-color: rgb(187, 200, 176);
+    padding: 2rem 5rem 2rem 5rem;
+    color: rgb(24, 24, 34);
+    margin: 0rem;
+  }
 }
 
  @media only screen and (max-width: 600px){
@@ -114,33 +135,24 @@ body{
     text-decoration-color: blueviolet;
     color: rgb(12, 66, 66); 
 }
-
-.logo{
-  width: 5rem;
-  height: 5rem;
-  margin: 0rem 0.5rem 0rem 0rem;
-  border-radius: 3rem;
-  padding: 0rem;
-  vertical-align: middle;
-}
-
-.fotoPlaya{
-  position: relative;
-}
-
-h2{
-  text-align: center;
-}
-
 p{
   text-align: justify;
   margin: 2rem 0.5rem 0.5rem 0.5rem;
 }
-
 .formulario{
   background-color: rgb(187, 200, 176);
   padding: 2rem 5rem 2rem 5rem;
   color: rgb(24, 24, 34);
   margin: 0rem;
 }
+}
+
+
+.fotoPlaya{
+  position: relative;
+}
+
+
+
+
 
