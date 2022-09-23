@@ -8,25 +8,41 @@
     <link rel="stylesheet" href="Css/style.css">
     <script src='main.js'></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
 </head>
 
 <body>
    
-   <!--menú principal   modificar para que sea responsive-->
-<div class="collapse-md">
-   <div class="menuPpal">
-        <div class="caja">Compra y venta</div>
-        <div class="caja">Alquiler</div>
-        <div class="caja">Mantenimiento</div>
-        <div class="caja">Obras</div>
-        <img src="images/Logo.png" alt="Logo">
+<!--menú principal-->
+<nav class="navbar navbar-expand-md menuPpal">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Compra y venta</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Alquiler</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active">Mantenimiento</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active">Obras</a>
+          </li>
+        </ul>
+       
+      </div>
     </div>
-</div>
+ 
+</nav>
 
 <!--Descripción general-->
 <div class="card bg-dark text-white">
-    <img src="images/PlayaCarilo2.jpg" class="card-img" alt="playa">
+    <img src="images/PlayaCarilo2.jpg" class="card-img fotoPlaya" alt="playa">
     <div class="card-img-overlay">
       <div class="fotoPlaya">
       <h5 class="card-title titulo">Cariló Servicios</h5>
@@ -37,7 +53,7 @@
   </div>
 </div>
 
-<br><br>
+
 
 <!--Detalle de servicios-->
     <div class="card-group">
@@ -71,12 +87,10 @@
         </div>
     </div>
 
-    <br><br>
-
     <!--Formulario-->
-    <div class="container">
+    <div class="container-fluid formulario">
         
-       <form action="" method="post" class="formulario mt-4">  
+       <form action="" method="post" class="formulario mt-0">  
             <div>
                 <h4>Si desea recibir información sobre nuestros servicios por favor complete el siguiente formulario:</h4>
             </div>
@@ -119,7 +133,7 @@
     
     
    
-    <br><br>
+    
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
