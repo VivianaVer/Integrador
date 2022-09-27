@@ -20,18 +20,21 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+        <ul class="navbar-nav me-auto mb-0 mb-md-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Compra y venta</a>
+            <a class="nav-link active" aria-current="page" href="#compraVenta">Compra y venta</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#">Alquiler</a>
+            <a class="nav-link active" href="#alquiler">Alquiler</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active">Mantenimiento</a>
+            <a class="nav-link active" href="#mantenimiento">Mantenimiento</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active">Obras</a>
+            <a class="nav-link active" href="#obras">Obras</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#contacto">Contacto</a>
           </li>
         </ul>
        
@@ -57,38 +60,38 @@
 
 <!--Detalle de servicios-->
     <div class="card-group">
-        <div class="card">
+        <div class="card" id="compraVenta">
             <img src="images/casaVenta.jpg" class="card-img-top" alt="compraVenta">
             <div class="card-body">
                 <h4 class="card-title">Compra y venta</h5>
                 <p class="card-text">Si desea comprar un terreno, una casa o vender su propiedad puede consultar y lo asesoraremos en base a nuestra larga trayectoria.</p>
             </div>
         </div>
-        <div class="card">
-            <img src="images/alquiler.jpg" class="card-img-top" alt="alquiler">
+        <div class="card" id="alquiler">
+            <img src="images/alquiler.jpg" class="card-img-top" alt="alquiler" >
             <div class="card-body">
-                 <h4 class="card-title">Alquiler</h4>
+                 <h4 class="card-title" >Alquiler</h4>
                 <p class="card-text">Si busca alojamiento acorde a sus necesidades para sus vacaciones, contáctenos. Tenemos una amplia variedad de propiedades disponibles durante todo el año.</p>
             </div>
         </div>
-        <div class="card">
+        <div class="card" id="mantenimiento">
             <img src="images/mantenimiento2.jpg" class="card-img-top" alt="mantenimiento">
             <div class="card-body">
                 <h4 class="card-title">Mantenimiento</h4>
                 <p class="card-text">Brindamos un servicio integral. Nos encargamos de higiene y sanitización, mantenimiento de parques y todo tipo de reparaciones.</p>
             </div>
         </div>
-        <div class="card">
+        <div class="card" id="obras">
             <img src="images/obras2.png" class="card-img-top" alt="obras">
             <div class="card-body">
                 <h4 class="card-title">Obras</h4>
-                <p class="card-text">Nuestro personal, altamente capacitado, está listo. Podemos ayudarlo a concretar su proyecto. Tanto sea una obra nueva como una modernización o el arreglo general de un ambientes. </p>
+                <p class="card-text">Nuestro personal, altamente capacitado, está listo. Podemos ayudarlo a concretar su proyecto. Tanto sea una obra nueva como una modernización o el arreglo general de un ambiente. </p>
             </div>
         </div>
     </div>
 
     <!--Formulario-->
-    <div class="container-fluid formulario">
+    <div class="container-fluid formulario" id="contacto" >
         
        <form action="consultal.htlm" method="post" class="formulario mt-0">  
             <div>
