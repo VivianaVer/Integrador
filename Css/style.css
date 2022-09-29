@@ -51,10 +51,11 @@ body {
   }
 
   .formulario {
-    background-color: rgb(187, 200, 176);
+    background-color: rgb(200, 216, 190);
     padding: 2rem 5rem 2rem 5rem;
     color: rgb(24, 24, 34);
     margin: 0rem;
+  
   }
 }
 
@@ -107,7 +108,7 @@ body {
   }
 
   .formulario {
-    background-color: rgb(187, 200, 176);
+    background-color: rgb(200, 216, 190);
     padding: 2rem 3rem 2rem 3rem;
     color: rgb(24, 24, 34);
     margin: 0rem;
@@ -165,7 +166,7 @@ body {
   }
 
   .formulario {
-    background-color: rgb(187, 200, 176);
+    background-color: rgb(200, 216, 190);
     padding: 2rem 1rem 2rem 1rem;
     color: rgb(24, 24, 34);
     margin: 0rem;
@@ -181,3 +182,4 @@ body {
 .fotoPlaya {
   position: relative;
 }
+
