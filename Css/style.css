@@ -134,11 +134,11 @@ body {
 
   .parrafo {
     position: absolute;
-    top: 12rem;
-    text-align: center;
+    top: 13rem;
+    text-align: start;
     color: rgb(221, 216, 216);
     font-size: 1.1rem;
-    padding: 1rem;
+    padding: 0.1rem;
     animation: fadeInRight;
     animation-duration: 2s;
   }
