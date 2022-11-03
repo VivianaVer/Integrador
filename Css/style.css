@@ -7,8 +7,8 @@ body {
 @media only screen and (max-width: 1500px) {
   .titulo {
     position: absolute;
-    top: 2.5px;
-    left: 30px;
+    top: 2.5rem;
+    left: 3rem;
     font-size: 7rem;
     color: rgb(16, 48, 16);
     margin: 0rem;
@@ -62,8 +62,8 @@ body {
 @media only screen and (max-width: 1000px) {
   .titulo {
     position: absolute;
-    top: 2.5px;
-    left: 30px;
+    top: 2.5rem;
+    left: 3rem;
     font-size: 5rem;
     color: rgb(16, 48, 16);
     margin: 0rem;
@@ -118,8 +118,8 @@ body {
 @media only screen and (max-width: 600px) {
   .titulo {
     position: absolute;
-    top: 10px;
-    left: 20px;
+    top: 1rem;
+    left: 2rem;
     font-size: 3rem;
     color: rgb(16, 48, 16);
     margin: 0rem;
