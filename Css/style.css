@@ -136,7 +136,7 @@ body {
     position: absolute;
     top: 12rem;
     text-align: center;
-    color: rgb(239, 235, 235);
+    color: rgb(221, 216, 216);
     font-size: 1.1rem;
     font-weight: bold;
     padding: 1.2rem;
@@ -174,7 +174,7 @@ body {
 
   .fotoPlaya {
     width: 24rem;
-    height: 30rem;
+    height: 32rem;
   }
 }
 
